@@ -1,6 +1,6 @@
 // src/features/auth/store/authStore.ts
 import { create } from "zustand";
-import {type IProfile} from "../../shared/types/profile.type"
+import {type IProfile} from "../../../shared/types/profile.type"
 
 interface AuthState {
   auth: boolean;

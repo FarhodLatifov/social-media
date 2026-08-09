@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router"
-import { useAuthStore } from "../store/authStore"
-import { privateRoutes, publicRoutes } from "./router"
+import { useAuthStore } from "../../features/auth/store/authStore"
+import { privateRoutes, publicRoutes } from "./router.config"
 
 const AppRouter = () => {
     const auth = useAuthStore(state => state.auth)
