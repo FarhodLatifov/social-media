@@ -1,8 +1,9 @@
 export interface IProfile {
-    id: number;
-    avatar: string | null;
-    username: string;
-    bio: string;
-    followers: number;
-    following: number
+  id: string;
+  username: string;
+  displayName: string;
+  avatarUrl: string | null;
+  bio?: string;
+  followersCount: number;
+  followingCount: number;
 }
