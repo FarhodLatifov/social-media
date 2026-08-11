@@ -1,6 +1,10 @@
+import Form from "../../shared/ui/Form"
+
 const Login = () => {
   return (
-    <div>Login</div>
+    <div>
+      <Form mode="login"/>
+    </div>
   )
 }
 

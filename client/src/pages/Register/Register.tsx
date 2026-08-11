@@ -1,6 +1,10 @@
+import Form from "../../shared/ui/Form"
+
 const Register = () => {
   return (
-    <div>Register</div>
+    <div>
+      <Form mode="register"/>
+    </div>
   )
 }
 

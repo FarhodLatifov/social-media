@@ -11,7 +11,7 @@ export const publicRoutes: IRoute[] = [
     element: Login,
   },
   {
-    path: "/",
+    path: "/register",
     element: Register,
   },
 ];
